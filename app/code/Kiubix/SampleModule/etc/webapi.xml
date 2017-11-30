@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<routes>
+    <route url="/V1/kiubix" method="GET">
+        <service class="Kiubix\SampleModule\Api\ItemRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>
